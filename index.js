@@ -12,7 +12,7 @@ const getDocDetails = require('./routes/getDocDetails')
 
 const   bodyparser = require('body-parser');
 const server = express();
-const port  = proess.env.PORT || 4000;
+const port  = process.env.PORT || 4000;
 
 // Database
 const {usernameDB,password} = process.env;
